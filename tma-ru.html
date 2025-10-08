@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Биткоин-Стандарт | TMA</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --text: #1e293b;
+      --btn-bg: #4da6ff;
+      --btn-green: #4ade80;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      padding: 20px;
+      margin: 0;
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 1.6rem;
+      margin-bottom: 16px;
+      color: #0d76b3;
+    }
+    p {
+      margin-bottom: 12px;
+      font-size: 0.95rem;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 14px;
+      margin: 12px 0;
+      border: none;
+      border-radius: 10px;
+      font-weight: 600;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      opacity: 0.95;
+    }
+    .btn:hover { opacity: 1; }
+    .btn-blue { background: var(--btn-bg); }
+    .btn-green { background: var(--btn-green); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Биткоин = цифровая энергия</h1>
+    <p>По словам Майкла Сейлора, биткоин — не просто «цифровое золото», а фундамент новой финансовой системы, способный передавать ценность со скоростью света.</p>
+    <ul style="font-size:0.95rem; margin-left:16px; margin-bottom:16px;">
+      <li>Корпорации ускоряют принятие BTC, не вытесняя частных лиц</li>
+      <li>Цифровые кредиты под BTC дают 5–10% против 0–0,5% в развитых странах</li>
+      <li>Даже при хранении BTC только банками — система в 100–1000× децентрализованнее золотого стандарта</li>
+      <li>Цель: $1 трлн BTC → глобальный рынок цифрового кредита</li>
+    </ul>
+
+    <a href="https://t.me/your_bot" class="btn btn-blue" target="_blank">💬 Telegram-бот</a>
+    <a href="https://yourdomain.com/landing.html" class="btn btn-green" target="_blank">📄 Полный лендинг</a>
+  </div>
+
+  <script>
+    if (window.Telegram?.WebApp) {
+      Telegram.WebApp.ready();
+      Telegram.WebApp.expand();
+    }
+  </script>
+</body>
+</html>

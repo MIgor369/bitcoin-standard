@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Bitcoin Standard | TMA</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --text: #1e293b;
+      --btn-bg: #4da6ff;
+      --btn-green: #4ade80;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      padding: 20px;
+      margin: 0;
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 1.6rem;
+      margin-bottom: 16px;
+      color: #0d76b3;
+    }
+    p {
+      margin-bottom: 12px;
+      font-size: 0.95rem;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 14px;
+      margin: 12px 0;
+      border: none;
+      border-radius: 10px;
+      font-weight: 600;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      opacity: 0.95;
+    }
+    .btn:hover { opacity: 1; }
+    .btn-blue { background: var(--btn-bg); }
+    .btn-green { background: var(--btn-green); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Bitcoin = Digital Energy</h1>
+    <p>Michael Saylor: Bitcoin is the foundation of 21st-century finance — not just digital gold, but <strong>digital energy</strong> that powers a new economic paradigm.</p>
+    <ul style="font-size:0.95rem; margin-left:16px; margin-bottom:16px;">
+      <li>Corporations are engines accelerating Bitcoin adoption</li>
+      <li>Bitcoin-backed credit outperforms fiat instruments 10x</li>
+      <li>Even if only banks hold BTC, it’s 100–1000x more decentralized than gold standard</li>
+      <li>Endgame: $1T BTC collateral → global credit market revival</li>
+    </ul>
+
+    <a href="https://t.me/your_bot" class="btn btn-blue" target="_blank">💬 Telegram Bot</a>
+    <a href="https://yourdomain.com/landing.html" class="btn btn-green" target="_blank">📄 Full Landing</a>
+  </div>
+
+  <script>
+    if (window.Telegram?.WebApp) {
+      Telegram.WebApp.ready();
+      Telegram.WebApp.expand();
+    }
+  </script>
+</body>
+</html>
